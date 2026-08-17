@@ -1,5 +1,11 @@
 # Cloudflare Pages 301 SEO Redirects (Legacy WordPress URLs to New Static Routes)
 
+/chemical-peels/                       /chemical-peels.html                    301
+/chemical-peels                        /chemical-peels.html                    301
+/chemical-peel/                        /chemical-peels.html                    301
+/chemical-peel                         /chemical-peels.html                    301
+/peels/                                /chemical-peels.html                    301
+/peels                                 /chemical-peels.html                    301
 /does-emsculpt-neo-work/                /emsculpt-neo.html                      301
 /does-emsculpt-neo-work                 /emsculpt-neo.html                      301
 /cosmetic-botox-services/              /cosmetic-botox.html                    301
