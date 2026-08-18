@@ -674,6 +674,49 @@ p:last-child {
   align-items: center;
 }
 
+.hero-centered {
+  text-align: center;
+  padding: 6.5rem 0 5rem;
+}
+
+.hero-centered .container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.hero-centered .eyebrow {
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.hero-centered .hero-title {
+  font-size: clamp(2.6rem, 5vw, 4.2rem);
+  max-width: 860px;
+  margin: 0 auto 1.5rem;
+}
+
+.hero-centered .hero-lead {
+  max-width: 780px;
+  margin: 0 auto 2.5rem;
+  font-size: 1.22rem;
+}
+
+.hero-centered .hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  margin-bottom: 3.5rem;
+}
+
+.hero-centered .hero-badges {
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 0;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(163, 124, 82, 0.2);
+}
+
 .hero-content {
   position: relative;
   z-index: 1;
