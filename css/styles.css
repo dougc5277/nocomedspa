@@ -291,9 +291,12 @@ p:last-child {
 }
 
 .brand-logo img {
-  height: 48px;
-  width: auto;
+  width: 260px;
+  max-width: 100%;
+  height: auto;
+  max-height: 62px;
   object-fit: contain;
+  display: block;
 }
 
 .brand-text {
