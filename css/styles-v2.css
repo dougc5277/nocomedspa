@@ -278,10 +278,10 @@ p {
 }
 
 .v2-brand img {
-  width: 260px;
+  width: 300px;
   max-width: 100%;
   height: auto;
-  max-height: 62px;
+  max-height: 72px;
   object-fit: contain;
   display: block;
 }
