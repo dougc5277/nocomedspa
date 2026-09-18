@@ -403,7 +403,9 @@ p:last-child {
   position: absolute;
   top: 100%;
   left: 0;
-  min-width: 250px;
+  min-width: 280px;
+  max-height: 80vh;
+  overflow-y: auto;
   background: #ffffff;
   border: 1px solid rgba(163, 124, 82, 0.25);
   border-radius: var(--radius-md);
@@ -413,6 +415,15 @@ p:last-child {
   list-style: none !important;
   display: none !important;
   z-index: 9999;
+}
+
+.dropdown-group-title {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  color: var(--primary-gold);
+  padding: 0.7rem 1.35rem 0.3rem;
 }
 
 .nav-dropdown:hover .dropdown-menu,
@@ -1485,8 +1496,8 @@ textarea.form-control {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
-  gap: 3rem;
+  grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr;
+  gap: 2.5rem;
   margin-bottom: 3.5rem;
 }
 

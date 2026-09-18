@@ -1,0 +1,8 @@
+.git
+.github
+.gitignore
+.assetsignore
+.DS_Store
+.playwright-mcp
+README.md
+wrangler.jsonc
